@@ -1,0 +1,131 @@
+﻿
+@{
+    ViewBag.Title = "Productscatalog";
+}
+
+<!--Danh mục các loại sản phẩm. Trang sản phẩm lớn từ menu-->
+<section class="danhmucsanpham col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+    <!--Banner-->
+    <div class="banner hidden-xs col-sm-12 col-md-12 col-lg-12">
+        <p class="col-sm-5 col-md-5 col-lg-5">
+            <span>SẢN PHẨM CỦA CHÚNG TÔI</span><br />
+            Chúng tôi luôn luôn cung cấp tới quý khách những sản phẩm chất lượng, tuyệt hảo nhất.
+            Đem đến phong thái sang trọng, lịch lãm và hơn hết là chất lượng dành cho quý khách
+        </p>
+    </div>
+
+    <!--Danh mục sản phẩm-->
+    <article class="danhmuc col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            Danh mục sản phẩm
+        </p>
+        <div class="cacsanpham col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+            <!--Rèm vải-->
+            <div class="sanpham col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <a href="@Url.Action("Productstype","Home")">
+                    <img src="~/Content/images/sanpham/remvai.png" alt="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" />
+                    <div class="info col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <p class="title rv col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            Rèm vải cao cấp
+                        </p>
+                        <p class="detail col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            Là những tấm vải được thiết kế theo nhiều kiểu cách và đượ ctreo lên cửa với mục đích che chắn ánh sáng luồng không khí hoặc gió...
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <!--Rèm cuốn-->
+            <div class="sanpham col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <a href="@Url.Action("Productstype","Home")">
+                    <img src="~/Content/images/sanpham/remcuon.png" alt="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" />
+                    <div class="info col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <p class="title rc col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            Rèm cuốn
+                        </p>
+                        <p class="detail col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            Là loại rèm được thiết kế theo phong cách hiện đại, đơn giản nhưng sang trọng. Rèm cuốn đang là sản phẩm được ưa chuộng trang trí văn phòng...
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <!--Rèm sáo-->
+            <div class="sanpham col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <a href="@Url.Action("Productstype","Home")">
+                    <img src="~/Content/images/sanpham/remsao.png" alt="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" />
+                    <div class="info col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <p class="title rs col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            Rèm sáo
+                        </p>
+                        <p class="detail col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            Rèm sáo là loại rèm được làm bằng các nan gỗ, nhôm,v..v (thường là bản: 3,5 cm và 5 cm) nằm xếp lớp ngang có thể lật nghiêng 180 độ...
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <!--Rèm chức năng-->
+            <div class="sanpham col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <a href="@Url.Action("Productstype","Home")">
+                    <img src="~/Content/images/sanpham/remchucnang.png" alt="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" />
+                    <div class="info col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <p class="title rcn col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            Rèm chức năng
+                        </p>
+                        <p class="detail col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            Là loại rèm được thiết kế với những chức năng khác nhau phục vụ con người như rèm chống nắng, rèm chống côn trùng, rèm ngăn lạnh...
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <!--Một số loại rèm khác-->
+            <div class="sanpham col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <a href="@Url.Action("Productstype","Home")">
+                    <img src="~/Content/images/sanpham/remkhac.png" alt="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" />
+                    <div class="info col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <p class="title rk col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            Một số loại rèm khác
+                        </p>
+                        <p class="detail col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            Một số loại mành rèm với công dụng, chức năng khác của chúng tôi có thể sẽ phù hợp với yêu cầu cửa các bạn...
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <!--Chăn ga - gối đệm-->
+            <div class="sanpham col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <a href="@Url.Action("Productstype","Home")">
+                    <img src="~/Content/images/sanpham/changa.png" alt="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" />
+                    <div class="info col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <p class="title cg col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            Chăn ga - gối đệm
+                        </p>
+                        <p class="detail col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            chúng tôi đảm bảo cung cấp hàng chính hãng chăn ga gối đệm của Hanviko - Everon, cùng với sản phẩm của Hùng Tuyết...
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <!--Sản phẩm khác-->
+            <div class="sanpham col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <a href="@Url.Action("Productstype","Home")">
+                    <img src="~/Content/images/sanpham/sanphamkhac.png" alt="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" />
+                    <div class="info col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <p class="title sk col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            Sản phẩm khác
+                        </p>
+                        <p class="detail col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            Một số loại sản phẩm khác của chúng tôi như váy ghế, thảm trải sàn, phông nền sân khấu. Phục vụ nhiều chức năng của quý khách.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </article>
+</section>

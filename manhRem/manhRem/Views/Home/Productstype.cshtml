@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewBag.Title = "Productstype";
+}
+
+<!--Danh mục từng dạng sản phẩm cùng loại. Trang con của trang sản phẩm lớn-->
+<section class="tungloaisanpham col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+    <!--Banner-->
+    <div class="banner hidden-xs col-sm-12 col-md-12 col-lg-12">
+        <p class="col-sm-5 col-md-5 col-lg-5">
+            <span>Rèm vải cao cấp</span><br />
+            Sản phẩm của chúng tôi được sản xuất và nhập khẩu theo đúng tiêu chuẩn châu Âu, chất lượng tuyệt hảo. Tạo nên không gian thi vị cho căn nhà của bạn.
+        </p>
+    </div>
+
+    <!--Danh sách sản phẩm-->
+    <article class="danhmuc col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            Danh mục sản phẩm
+        </p>
+        <div class="cacsanpham col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+            <!--Từng sản phẩm-->
+            <div class="sanpham col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <a href="@Url.Action("Productlist","Home")">
+                    <img src="~/Content/images/sanpham/remvai/remvai-1lop.png" alt="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" />
+                    <div class="info col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <p class="title col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            Rèm vải 1 lớp
+                        </p>
+                        <p class="detail col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            Là loại rèm được thiết kế 1 lớp, đơn giản nhưng trang nhã, lịch sự. Chắn gió, chắn nắng, tùy theo nhu cầu của khách hàng
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <!--Từng sản phẩm-->
+            <div class="sanpham col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <a href="@Url.Action("Productlist","Home")">
+                    <img src="~/Content/images/sanpham/remvai/remvai-2lop.png" alt="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" />
+                    <div class="info col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <p class="title col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            Rèm vải 2 lớp
+                        </p>
+                        <p class="detail col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            Là loại rèm được thiết kế 2 lớp, một lớp chắn bên ngoài và một lớp voan mỏng hoặc vải bên trong. Phong cách quý phái, lịch sự.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </article>
+</section>
